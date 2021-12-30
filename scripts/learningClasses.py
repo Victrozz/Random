@@ -1,20 +1,26 @@
 class Card(object):
 
-    amount_of_cards = 4
+    _amount_of_cards = 0
     # these are methods, because they are in a class. Otherwise, they'd be functions.
     def __init__(self, name, price, health, attack):
+        
+        Card._amount_of_cards += 1
         # these are attributes
         self.name = name
         self.price = price
         self.health = health
         self.attack = attack
+        self.id = Card._amount_of_cards
 
     def speak(self):
         print("This card's name is", self.name + ", it costs", self.price, "points" + ", it has a health stat of", self.health, "and an attack stat of", self.attack)
 
-    @classmethod
-    def getAmount(cls):
-        return cls.amount_of_cards
+    def random_card(self):
+        pass
+
+    #@classmethod
+    #def getAmount(cls):
+    #    return cls.amount_of_cards
 
 # outside the class, these are instances
 
