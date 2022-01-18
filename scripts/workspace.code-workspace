@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "Tests",
+			"path": "..\\..\\..\\IDLE\\Tests"
+		},
+		{
+			"name": "Little Programs",
+			"path": "..\\..\\..\\IDLE\\Little Programs"
+		},
+		{
+			"name": "Discord Bot",
+			"path": "..\\..\\..\\Discord Bot"
+		},
+		{
+			"name": "Random",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
