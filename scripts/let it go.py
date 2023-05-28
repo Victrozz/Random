@@ -8,7 +8,7 @@ song_name = "Let It Go"
 now = datetime.now()
 
 #sets a custom date, in this case, the time of the skii trip
-then = datetime(year = 2021, month = 12, day = 26, hour = 10)
+then = datetime(year = 2023, month = 5, day = 31, hour = 14)
 
 #sorry this is a mess
 #l1 is the representation of the time left, stored in a time.deltatime variable (year all the way to miliseconds)
